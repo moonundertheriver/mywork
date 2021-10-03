@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Rhodes Island with Dr.LingB</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+  </head>
+  <body>
+    <script>window.alert("啊哈！一位新的访客！")</script>
+  <div id="center">
+    <div id="title">
+    <h1>欢迎！远道而来的朋友</h1>
+    <p>本人高温博文，很高兴认识你</p>
+    <p>那么这个时候应该干些什么呢...</p>
+    <input type="button" onclick="myFunction()"value="开始我的自我介绍！"/>
+    </div>
+    <div id="selfintro">
+      <div class="selfintro">
+      <img src="网页/t019fb411fcc69a4adf.jpg"/>
+      <p id="demo">（^-^)</p>
+      <div class="selfintro-end"></div>
+    <script>
+      function myFunction(){
+      document.getElementById("demo").innerHTML=info1;
+    }
+      var info1;
+      info1="我是21级预防一班的一名普通学生，男，最喜欢躺平，爱好广泛，包括并不限于看小说，玩游戏，打牌，唱歌，画画。有一本想写的小说迟迟没有动笔，有很多想去的地方迟迟没有动身。战略上的拖延症，战术上的强迫症，没任务时恨不得与床融为一体，有任务时能尽己所能。平时还算乐于助人，自认为见过一些风浪所以不喜张扬，当然也是因为懒。平日里谈笑风生，玩梗不止，我的身边，欢乐无限。";
+    </script>
+      </div>
+    </div>
+  </div>
+  <div>
+    <input type="button"onclick="Function()"value="想了解的更深入些？"/>
+  </div>
+  <div id=center2>
+  <div id="peng">
+    <div class="peng">
+    <img src="网页/e88e2f757ca3635910dbe77cb344332c4cf85096.png"/>
+    <p id="myP1">企鹅帝国万岁</p>
+    <div class="peng-end"></div>
+    <script>
+      var para1;
+      para1="兴趣爱好上只是个半吊子，看过几部JOJO，也追过不少特摄；知道盥洗室之神，也认识疯不觉；平时打一些游戏，不氪也不肝。唱歌画画皆非能手，体能文笔都是三流。参加过一些活动，也搞砸过不少。总想干些什么又总是以学习为借口拖延。这样的我最大的优点大概就是玩什么梗都能接上一两句...谁还不想做一个无忧无虑自由自在的萨科塔呢？";
+    </script>
+    </div>
+  </div>
+  <div id="wss">
+    <div class="wss">
+    <img src="网页/Aklogo_乌萨斯学生自治团_黑.png"/>
+    <p id="myP2">乌萨斯的孩子们</p>
+    <div class="wss-end"></div>
+    <script>
+      function Function(){
+        document.getElementById("myP1").innerHTML=para1;
+        document.getElementById("myP2").innerHTML=para2;
+      }
+      var para2;
+      para2="个人简历啊...出生在一个普通的四线城市，从当地最好的小学，到最好的初中，再到最好的高中，最后极其走运地上了全国最好的大学。没什么刻骨铭心，也没什么与众不同，成长大概发生在一次次失败和恼火后的夜里独思。生涯之中一片后悔，却也不曾悔为自我。学会了收敛和接受之后，才明白乌萨斯的孩子们的乐观如此来之不易。";
+    </script>
+    </div>
+  </div>
+  </div>
+  </body>
+</html>

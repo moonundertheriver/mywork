@@ -1,0 +1,69 @@
+body {
+	background-color: black;
+	background-image: url("网页/1d851464d014dfd30e82861dffbd4594be38cf76.jpg");
+}
+div.selfintro{
+	width: 700px;
+	background-color: black;
+	border-width: 10px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+}
+img{
+	float: left;
+}
+div.selfintro-end{
+	clear: both;
+}
+
+#demo{
+	color: white;
+}
+#center{
+	display: table;
+	width: 1200px;
+}
+#title,#demo{
+	display: table-cell;
+}
+#title{
+	width: 500px;
+}
+div.peng{
+	width: 700px;
+	background-color: black;
+	border-width: 10px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+}
+#peng{
+	color: white;
+}
+div.peng-end{
+	clear: both;
+}
+div.wss{
+	width: 700px;
+	background-color: white;
+	border-width: 10px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+}
+#wss{
+	color: black;
+}
+div.wss-end{
+	clear: both;
+}
+#center2{
+	display: table;
+	width: 1400px;
+}
+#peng,#wss{
+	display: table-cell;
+}
+#wss{
+	width: 700px;
